@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <link rel="stylesheet" href="style.css">
+ 
+    <title>Atividade - jQuery</title>
+   
+ 
+</head>
+<body>
+     <section>
+    <h2>1. Alterar texto de um elemento</h2>
+    <button id="botaoTexto">Clique aqui</button>
+    <p id="mensagem">Altere o texto!</p>
+  </section>
+ 
+ 
+  <section>
+    <h2>2. Mostrar e esconder elementos</h2>
+    <button id="esconderImg">Esconder imagem</button>
+    <button id="mostrarImg">Mostrar imagem</button>
+    <br><br>
+    <img id="foto" src="img/img.png" alt="Exemplo" width="200">
+  </section>
+ 
+ 
+  <section>
+    <h2>3. Alterar o estilo CSS</h2>
+    <p id="textoHover">Passe o cursor por cima</p>
+  </section>
+ 
+ 
+  <section>
+    <h2>4. Adicionar elementos dinamicamente</h2>
+    <button id="adicionarltem">Adicionar item</button>
+    <ul id="lista">
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
+  </section>
+ 
+ 
+  <section>
+    <h2>5. Validar formulário simples</h2>
+    <form id="formulario">
+      <input type="text" id="nome" placeholder="Digite seu nome">
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="erro" style="color: red; display: none;">Por favor, preencha o nome.</p>
+  </section>
+ 
+ 
+  <section>
+    <h2>6. Requisição GET (Ajax)</h2>
+    <button id="carregarUsuario">Carregar usuário</button>
+    <p id="usuarioNome"></p>
+  </section>
+ 
+ 
+  <section>
+    <h2>7. Carregar lista de posts via Ajax</h2>
+    <button id="carregarPosts">Carregar posts</button>
+    <ul id="listaPosts"></ul>
+  </section>
+ 
+ 
+  <section>
+    <h2>8. Enviar dados via Ajax (POST)</h2>
+    <form id="formComentario">
+      <input type="text" id="nomeComentario" placeholder="Seu nome">
+      <br>
+      <textarea id="textoComentario" placeholder="Seu comentário"></textarea>
+      <br>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="status"></p>
+  </section>
+ 
+  <script src="js/app.js"></script>
+</body>
+</html>
+ 
